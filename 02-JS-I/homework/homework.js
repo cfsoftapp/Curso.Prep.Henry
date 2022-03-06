@@ -28,73 +28,131 @@ const nuevoModulo = 21 % 5 === 1;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
-  
+  const srt ="Bella victoria";
+  return srt;  
 }
 
 function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
-  
+  const x=10;
+  const y=20;
+  const suma =x+y;
+  return suma;
 }
 
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-  
+  const x=10;
+  const y=6;
+  const resta =x-y;
+  return resta;
 }
 
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
-  
+  const x=8;
+  const y=12;
+  const multiplicar =x*y;
+  return multiplicar;
 }
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
-  
+  const x=12;
+  const y=4;
+  const dividir =x/y;
+  return dividir;
 }
 
 function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  
+  const x=10;
+  const y=20;
+  const rpta;
+  if(x===y){
+    rpta=true;
+  }
+  else
+    rpta=false;
+
+  return rpta;
 }
 
 function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  
+  const str1 = "Carlos"
+  const str2 = "Felipe"
+  const respuesta;
+  if(str1.length===str2.length){
+    respuesta = true;
+  }
+  else
+    respuesta=false;
+
+    return respuesta;
 }
 
 function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
   // De lo contrario, devuelve "false"
   // Tu código:
-  
+  const num = 50;
+  const respuesta;
+  if(num < 90){
+    respuesta = true;
+  }
+  else
+    respuesta = false;
+
+  return respuesta;
 }
 
 function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
   // Tu código:
-  
+  const num = 60;
+  const respuesta;
+  if(num > 50){
+    respuesta = true;
+  }
+  else
+    respuesta = false;
+
+  return respuesta;
 }
 
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-  
+  const x=12;
+  const y=4;
+  const resto =x%y;
+  return resto;
 }
 
 function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  
+  const num = 60;
+  const respuesta;
+  if(num/2===0){
+    respuesta = true
+  }
+  else
+    respuesta = false;
+   
+  return respuesta ;
 }
 
 function esImpar(num) {

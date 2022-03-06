@@ -187,7 +187,7 @@ function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
-  return str+"!";
+  return "{str}!";
 }
 
 function combinarNombres(nombre, apellido) {
@@ -201,7 +201,7 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  return "Hola" + nombre + "!";
+  return "Hola {nombre} !";
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
